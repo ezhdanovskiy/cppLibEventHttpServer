@@ -1,0 +1,8 @@
+language: cpp
+
+install: true
+
+script: mkdir build && cd build && cmake .. && make && ./HttpServer
+
+notifications:
+  slack: j0ny:tlJolYCjWs5eI2DmeZFry8sa
