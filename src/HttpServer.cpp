@@ -1,6 +1,7 @@
-﻿#include "HttpServer.h"
 
-﻿#include <memory>
+#include "HttpServer.h"
+
+#include <memory>
 #include <cstdint>
 #include <iostream>
 #include <evhttp.h>
