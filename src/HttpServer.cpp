@@ -1,9 +1,9 @@
 #include "HttpServer.h"
 
-// #include <memory>
-// #include <cstdint>
-// #include <iostream>
-// #include <evhttp.h>
+#include <memory>
+#include <cstdint>
+#include <iostream>
+#include <evhttp.h>
 
 int runHttpServer()
 {
