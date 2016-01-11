@@ -10,7 +10,7 @@ before_install:
   - if [ "$CXX" = "g++" ]; then sudo apt-get install -qq g++-4.8; fi
   - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
 
-script: mkdir build && cd build && cmake .. && make && ./HttpServer
+script: mkdir build && cd build && cmake .. && make
 
 notifications:
   slack: j0ny:tlJolYCjWs5eI2DmeZFry8sa
