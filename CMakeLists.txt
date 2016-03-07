@@ -1,7 +1,7 @@
 project(LibEventHttpServer)
 cmake_minimum_required(VERSION 2.6)
 
-set(BIN_NAME HttpServer)
+set(BIN_NAME HttpServerLibevent1 )
 
 include_directories(include)
 
